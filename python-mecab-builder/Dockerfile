@@ -5,8 +5,7 @@ RUN apt-get update > /dev/null && apt-get install -y --reinstall build-essential
     file \
     git \
     default-libmysqlclient-dev \
-    mecab mecab-ipadic-utf8 \
-    libmecab-dev \
-    swig \
     mecab \
-    mecab-ipadic-utf8 
+    mecab-ipadic-utf8 \
+    libmecab-dev \
+    swig
